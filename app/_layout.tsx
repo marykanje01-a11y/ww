@@ -33,7 +33,7 @@ function SplashScreen({ onFinish }: { onFinish: () => void }) {
 
     const splashTimer = setTimeout(() => {
       onFinishRef.current();
-    }, 12000);
+    }, 15000);
 
     return () => clearTimeout(splashTimer);
   }, [player]);
